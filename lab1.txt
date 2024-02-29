@@ -1,0 +1,46 @@
+a = [[11, 12, 13,14], [15, 16, 17,18]]
+nd_a = np.array(a)
+
+np.zeros((4,3))
+
+np.ones((3,4))
+
+np.arange(4,14,1)
+
+np.arange(0,5,1.5)
+
+np.array([[4,4],[4,4]])
+
+np.eye(4)
+
+np.diag([10.12])
+
+np.random.uniform(0, 10, size=(3, 3))
+
+np.random.randint(10, 21, size=(3, 3))
+
+myArray[:2]
+
+myArray[:2] = 0
+
+np.arange(21)
+
+array[::-1]
+
+myArray.reshape(3,2)
+
+squarearray=np.square(myArray)
+
+sqrtarray=np.sqrt(myArray)
+
+squareXsqrt = squarearray * sqrtarray
+
+
+newrow = [20, 21, 22]
+myArray = numpy.vstack([myArray, newrow])
+
+newrow = [30, 40, 50]
+myArray = numpy.hstack([myArray, newrow])
+
+oneCol = np.ones((2,1))
+myArray = numpy.hstack(myArray,oneCol)
